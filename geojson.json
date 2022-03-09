@@ -1,0 +1,156 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[0, 10], [10, 10], [10, 0], [0, 0], [0, 10]]
+        ]
+      },
+      "properties": {
+        "id": "01",
+        "angle": 0.0,
+        "label": "shelf_01",
+        "type": "shelf",
+        "parent": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[0, 10], [10, 10]]
+      },
+      "properties": {
+        "id": "01_N",
+        "type": "facing",
+        "parent": "01",
+        "label": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10, 10], [10, 0]
+        ]
+      },
+      "properties": {
+        "id": "01_E",
+        "type": "facing",
+        "parent": "01",
+        "label": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [10, 0], [0, 0]
+        ]
+      },
+      "properties": {
+        "id": "01_S",
+        "type": "facing",
+        "parent": "01",
+        "label": "S"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [0, 0], [0, 10]
+        ]
+      },
+      "properties": {
+        "id": "01_W",
+        "type": "facing",
+        "parent": "01",
+        "label": "W"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[20, 10], [30, 10], [30, 0], [20, 0], [20, 10]]
+        ]
+      },
+      "properties": {
+        "id": "02",
+        "angle": 0.0,
+        "label": "shelf_01",
+        "type": "shelf",
+        "parent": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [20, 10], [30, 10]
+        ]
+      },
+      "properties": {
+        "id": "02_N",
+        "type": "facing",
+        "parent": "02",
+        "label": "N"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [30, 10], [30, 0]
+        ]
+      },
+      "properties": {
+        "id": "02_E",
+        "type": "facing",
+        "parent": "02",
+        "label": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [30, 0], [20, 0]
+        ]
+      },
+      "properties": {
+        "id": "02_S",
+        "type": "facing",
+        "parent": "02",
+        "label": "S"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [20, 0], [30, 0]
+        ]
+      },
+      "properties": {
+        "id": "02_W",
+        "type": "facing",
+        "parent": "02",
+        "label": "W"
+      }
+    }
+  ]
+}
+
